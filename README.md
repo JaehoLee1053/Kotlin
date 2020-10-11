@@ -1,22 +1,22 @@
 # Kotlin
 ## INDEX
 ### [Scope Function](#scope-function)
-> [let()](#let())
+> let()
 
-> [run()](#run())
+> run()
 
-> [with()](#with())
+> with()
 
-> [apply()](apply())
+> apply()
 
 > [also()](also())
 
 
 ## Scope Function
->## let()
+> let()
 
->## run()
+> run()
 
->## with()
+> with()
 
->## also()
+> also()
