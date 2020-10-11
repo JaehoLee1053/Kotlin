@@ -1,15 +1,22 @@
 # Kotlin
 ## INDEX
-### [Scoping Function](#scoping-function)
-> let()
+### [Scope Function](#scope-function)
+> [let()](#let())
 
-> run()
+> [run()](#run())
 
-> with()
+> [with()](#with())
 
-> apply()
+> [apply()](apply())
 
-> also()
+> [also()](also())
 
 
-## Scoping Function
+## Scope Function
+>## let()
+
+>## run()
+
+>## with()
+
+>## also()
