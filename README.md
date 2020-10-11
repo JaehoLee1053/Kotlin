@@ -9,10 +9,16 @@
 
 > apply()
 
-> [also()](also())
+> also()
 
 
 ## Scope Function
+||context object|return|
+|---|---|---|
+|run|this|lambda result|
+|with|this|lambda result|
+|apply|this|context object|
+|let|it|lambda result|
 > let()
 
 > run()
