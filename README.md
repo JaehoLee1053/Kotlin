@@ -21,7 +21,7 @@
 |let|it|lambda result|
 > let()
 >> A. chain operation의 경우
-```
+```kotlin
 val numbers = mutableListOf("one", "two", "three", "four", "five")
 numbers.map {it.length}.filter{it > 3}
     .let{print(it}
