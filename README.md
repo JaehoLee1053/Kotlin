@@ -1,6 +1,6 @@
 # Kotlin
 ## INDEX
-## [1. Scoping Function](#1.-scoping-function)
+### [1. Scoping Function](#1.-scoping-function)
 > let()
 
 > run()
@@ -12,4 +12,4 @@
 > also()
 
 
->## 1. Scoping Function
+## 1. Scoping Function
