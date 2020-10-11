@@ -48,7 +48,7 @@ Student("Alice", 20).let{
 listOf("one", null, "two")
     .forEach{
         it?.let{
-            println("$it, "
+            println("$it, ")
         }
     }
 ```
