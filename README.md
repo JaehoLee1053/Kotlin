@@ -25,7 +25,7 @@
 
 ## Scope Function
 
-> 이용 목적별 구분
+### 이용 목적별 구분
 
 >>> Non-null object에 lambda를 사용하고자 할 경우 => let (return lambda)
 
@@ -45,7 +45,8 @@
 |with|this|lambda result|
 |apply|this|context object|
 |let|it|lambda result|
-> let()
+### 함수
+#### let()
 
 >> A. chain operation의 경우
 
@@ -80,7 +81,7 @@ listOf("one", null, "two")
     }
 ```
 
-> with()
+#### with()
 
 >>> with()은 parameter를 object로 받아 사용
 
@@ -107,7 +108,7 @@ with(numbers){
 }
 ```
 
-> run()
+#### run()
 
 >>> with과 비슷하지만 object를 받는 위치가 다르다.
 >>> 필요에 따라 앞에 safeCall(?.)을 붙여 null이 아닌 값만 run을 실행할 수도 있다. (이 이유로 with보다 run을 많이 사용)
@@ -147,7 +148,7 @@ mNullable?.let{
 }
 ```
 
-> apply()
+#### apply()
 
 >>> 전달받는 객체의 멤버에 operate하는 것이 주 목적이다.
 
@@ -174,7 +175,7 @@ AlertDialog.Builder(this).apply{
 }.create().show()
 ```
 
-> also()
+#### also()
 
 >>> Object를 수정하지 않고, debugging을 위한 logging을 하는 등의 부가적인 일을 할 때 상요한다.
 
@@ -190,7 +191,7 @@ Intent(this, MainActivity"::class.java)
     .also{startActivity(it)}
 ```
 
-> takeIf와 takeUnless
+### takeIf와 takeUnless
 
 >>> takeIf와 takeUnless의 context object와 return은 it이다.
 
